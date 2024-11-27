@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #018281;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  width: 132px;
+  font-family: "W95FA", sans-serif;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.Header {
+  height: 32px;
+  display: flex;
+  background-color: #c3c3c3;
+  border-bottom: 3px solid #fff;
+  max-width: 100%;
+}
+
+.frontpage {
+  display: flex;
+  flex-direction: row;
+}
+.filler {
+  width: 132px;
+}
+
+.bin {
+  width: 132px;
+  margin-top: 16px;
+  align-items: center;
+}
+
+.img_bin {
+  width: 48px;
+  margin-left: 42px;
+}
+
+.mycomputer {
+  display: flex;
+  flex-direction: column;
+  width: 132px;
+  margin-top: 32px;
+  align-items: center;
+}
+
+.pc_img {
+  margin-bottom: 6px;
+}
+
+.mv {
+  display: flex;
+  flex-direction: column;
+  width: 132px;
+  margin-top: 32px;
+  align-items: center;
+}
+
+.img_mv {
+  width: 48px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mv_txt {
+  margin: auto 16px auto 16px;
+  width: 90px;
+  font-weight: 100;
+}
+
+#square {
+  margin: 64px auto 48px auto;
+  background-color: #c3c3c3;
+  max-width: 1200px;
+  width: 1000px;
+  max-height: 784px;
+  border-right: 4px ridge;
+  border-bottom: 4px ridge;
+  border-top: 3px solid;
+  border-left: 3px solid;
+  border-top-color: #fff;
+  border-left-color: #fff;
+  border-right-color: #6c6c6c;
+  border-bottom-color: #6c6c6c;
+  position: relative;
+  z-index: 10;
+}
+
+.blue {
+  display: flex;
+  height: 32px;
+  background-color: #000082;
+  align-items: center;
+  flex-direction: row;
+}
+
+.img_icon {
+  margin: auto 4px auto 4px;
+  width: 24px;
+}
+
+h1 {
+  font-family: "W95FA", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+}
+
+.X {
+  font-family: "Tahoma";
+  font-weight: bold;
+  color: #000;
+  font-size: 14px;
+  align-self: right;
+  background-color: #c3c3c3;
+  border-top: solid #fff;
+  border-right: solid #000;
+  border-bottom: solid #000;
+  border-left: solid #fff;
+  margin-left: auto;
+  margin-right: 4px;
+}
+
+.img_construction {
+  display: flex;
+  margin: 0px auto 0px auto;
+  width: 80%;
+}
+
+.canvas {
+  background-color: #ebebeb;
+  height: 700px;
+  margin: 16px 10px 32px 10px;
+  border: 4px ridge;
+  border-top-color: #6c6c6c;
+  border-left-color: #6c6c6c;
+  border-right-color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media screen and (max-width: 1264px) {
+  #square {
+    max-height: 800px;
+    margin: 32px 32px 0px 32px;
+  }
+}
